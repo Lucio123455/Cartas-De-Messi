@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+#encabezado {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700; /* Color de texto al pasar el ratón */
+}
+
+img {
+    height: 896px;
+    width: auto;
+}
+
+.boton1 button {
+    position: relative;
+    left: 402px;
+    bottom: 40px;
+    width: 250px;
+    height: auto;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); /* 4 filas con la misma altura */
+    grid-template-columns: 1fr;
+    margin-top: 30px; /* 2 columnas con la misma anchura */
+}
+
+.grid-item {
+    background-size: contain; /* Hace que la imagen de fondo se ajuste al contenedor sin recortarse */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    color: #fff; /* Color del texto */
+    padding: 270px; /* Relleno */
+    text-align: center;
+    position: relative; /* Añadido para posicionar correctamente el enlace */
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-item img {
+    max-height: 230px;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    top: 6px;
+    transition: transform 0.5s; /* Agregamos transición para un efecto suave */
+}
+
+/* Efecto de agrandar al pasar el ratón sobre el grid-item */
+.grid-item img:hover  {
+    transform: scale(1.1); /* Ajusta el valor según la cantidad que deseas agrandar */
+}
+
+
+
+
+
+
+
+
+/* Estilo para los enlaces (ocupa todo el contenedor) */
