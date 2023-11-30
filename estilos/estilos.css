@@ -42,8 +42,17 @@ img {
 
 .boton1 button {
     position: relative;
-    left: 402px;
-    bottom: 40px;
+    left: 443px;
+    bottom: 60px;
+    width: 250px;
+    height: auto;
+    
+}
+
+.boton2 button {
+    position: relative;
+    right: 297px;
+    bottom: 60px;
     width: 250px;
     height: auto;
     
