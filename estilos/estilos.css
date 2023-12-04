@@ -58,6 +58,15 @@ img {
     
 }
 
+.boton3 button {
+    position: relative;
+    right: 455px;
+    bottom: 60px;
+    width: 250px;
+    height: auto;
+    
+}
+
 .grid-container {
     display: grid;
     grid-template-rows: repeat(4, 1fr); /* 4 filas con la misma altura */
